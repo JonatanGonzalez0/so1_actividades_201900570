@@ -30,7 +30,7 @@ Script Bash realizado para consultar la API de GitHub y obtener información sob
     */5 * * * * actividad2/github.sh
     ```
     **Configuración del cron job**:
-    ![Configuración del Cron Job](img/cron_job.png)
+    ![Configuración del Cron Job](img/cron%20Job.png)
 
 2. **Verifica el archivo de log**:
     ```bash
@@ -40,5 +40,5 @@ Script Bash realizado para consultar la API de GitHub y obtener información sob
     ```
 
     **Log de ejecucion**:
-    ![Logs de ejecucion](img/Logs tmp.png)
+    ![Logs de ejecucion](img/Logs%20tmp.png)
     
