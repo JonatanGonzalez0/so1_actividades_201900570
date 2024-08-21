@@ -1,0 +1,10 @@
+[Unit]
+Description=Servicio de saludo que imprime la fecha y hora cada segundo
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/saludo.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
