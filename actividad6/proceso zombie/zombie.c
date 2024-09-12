@@ -12,7 +12,7 @@ int main() {
         printf("Proceso hijo zombie: %d\n", pid);
 
         // El padre duerme indefinidamente sin llamar a wait(), lo que dejará al hijo como zombie
-        sleep(100);
+        sleep(60);
 
     } else if (pid == 0) {
         // Este es el proceso hijo
